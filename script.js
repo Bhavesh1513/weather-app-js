@@ -99,7 +99,7 @@ function displayForecast(data) {
   forecastDisplay.innerHTML = days.map(day => {
     const forecastForDay = data.list.filter(item => new Date(item.dt * 1000).getDate() === day)[0];
     return `
-      <div class="bg-white p-4 rounded-lg shadow-md text-center">
+      <div class="bg-[#A7ECB2] p-4 rounded-lg shadow-md text-center">
         <p class="font-bold">${new Date(forecastForDay.dt * 1000).toLocaleDateString()}</p>  <!-- Date of forecast -->
         <img 
           src="http://openweathermap.org/img/wn/${forecastForDay.weather[0].icon}@2x.png" 
