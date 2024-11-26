@@ -1,0 +1,2 @@
+Clone this repo of project:
+https://github.com/Bhavesh1513/weather-app-js.git 
